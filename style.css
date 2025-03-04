@@ -141,6 +141,8 @@
     width: 250px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
   }
   
   .product img {
@@ -224,5 +226,10 @@
     color: white;
     text-align: center;
     padding: 20px;
+  }
+  
+  .fullscreen-preview img {
+    cursor: pointer;
+    transition: transform 0.3s ease;
   }
   
